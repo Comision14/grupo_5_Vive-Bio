@@ -11,8 +11,5 @@
   },
   "name": "grupo_5_proyecto",
   "version": "1.0.0",
-  "scripts": {
-    "start": "node ./src/app.js"
-  },
   "main" : "./src/app.js"
 }
