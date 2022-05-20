@@ -1,8 +1,6 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 3000;
-
 const methodOverride = require('method-override');
 
 
@@ -29,4 +27,4 @@ app.use('/products', productsRouter);
 app.use('/users', usersRouter)
 
 
-app.listen(port, () => console.log(`Server running in port http://localhost:${port}`));
+app.listen(3000);
