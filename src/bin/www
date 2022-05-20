@@ -5,7 +5,11 @@
  */
 
 var app = require('../app');
+<<<<<<< HEAD
 var debug = require('debug')('proyecto-integrador-heroku-version:server');
+=======
+var debug = require('debug')('grupo-5-vive-bio:server');
+>>>>>>> develop
 var http = require('http');
 
 /**
