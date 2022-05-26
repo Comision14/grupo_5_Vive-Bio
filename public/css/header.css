@@ -4,48 +4,15 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-/*     padding-bottom: 10px; */
-}
-
-/*******************************************
-Header mobile
-**********************************************/
-
-.mobile_header {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    border: 1px solid rgba(127, 167, 148, 0.1);
-    z-index: 2;
-    border:none;
-}
-
-.mobile_logo {
-    width: 25%;
-    text-align: start;
-    padding: 5px 0 0 5px;
-    font-size: 20px;
-}
-
-.mobile_logo img {
-    width: 90%;
-}
-
-.nav_mobile_menu {
-    width: 75%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-    font-size: 35px;
-    color: var(--verdeOscuro);
+    padding-bottom: 10px;
 }
 
 
+.header__logo img {
+    width: 200px;
+}
 
 
-/* 
 header .header__burger {
     display: block;
     color: rgb(0, 134, 34);
@@ -58,17 +25,12 @@ header .header__burger {
     border-radius: 8px;
     text-align: center;
     border: 1px solid black;
-} */
+}
 
-
-/* .header .menu {
+.header .menu {
     width: 60px;
     height: 50px;
     margin-top: 10px;
-}
- */
-.header__logo{
-    display:none;
 }
 
 .header__busqueda {
@@ -137,7 +99,6 @@ header .header__burger {
         height: 35px;
         border-radius: 10px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border: 1px solid #7FA794;
     }
 
     .header .header__burger {
@@ -145,20 +106,9 @@ header .header__burger {
     }
 
     .header__busqueda .barra__lupa {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border: 1px solid lightblue;
-        background-color: #7FA794;
-        color: var(--verdeClaro);
-        text-shadow: 0 0 1px black;
-        font-size: 20px;
         margin-left: 5px;
-        width: 45px;
-        height: 45px;
-        cursor: pointer;
+        width: 37px;
+        height: 36px;
     }
 
     .header__user {
