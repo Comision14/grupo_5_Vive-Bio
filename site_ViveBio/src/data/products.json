@@ -22,9 +22,9 @@
       "category": 2,
       "dest": true,
       "property": "Humectante",
-      "price": 300,
-      "volume": 90,
-      "discount": 20,
+      "price": 3000,
+      "volume": "90",
+      "discount": "20",
       "image": [
          "jabon-humectante-14.jpg"
       ]
